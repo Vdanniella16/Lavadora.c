@@ -43,12 +43,15 @@ Si el ciclo de lavado no ha comenzado ```(lavado es 0)```, espera a que se presi
 El ciclo de lavado se controla mediante interrupciones del temporizador ```(timer2, timer6, timer21)```
 Las interrupciones del temporizador realizan las siguientes acciones:
 Llenado del tanque de lavado con agua ```1 segundo```
+
 <img width="880" alt="image" src="https://github.com/Vdanniella16/Lavadora.c/assets/161171728/9af943bc-9245-436a-91ed-bebe28652198">
 
 ```Enjuague``` (500ms)
 ```Centrifugado``` (250ms)
 ```Conteo del tiempo de lavado``` (2 segundos)
-Cuando el tiempo de lavado alcanza un cierto valor ```11 segundos```, el ciclo de lavado finaliza, se suena un timbre ```se enciende un LED``` y se notifica que el lavado ha terminado: <img width="457" alt="image" src="https://github.com/Vdanniella16/Lavadora.c/assets/161171728/d7e6486b-a555-4af6-a3c1-933b5b392c29">
+Cuando el tiempo de lavado alcanza un cierto valor ```11 segundos```, el ciclo de lavado finaliza, se suena un timbre ```se enciende un LED``` y se notifica que el lavado ha terminado: 
+
+<img width="457" alt="image" src="https://github.com/Vdanniella16/Lavadora.c/assets/161171728/d7e6486b-a555-4af6-a3c1-933b5b392c29">
 
 **Y de esta manera se muestra que el ciclo ha concluido, mostrando la letra F en el display de 7 segmentos utilizado.**
 
