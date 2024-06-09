@@ -49,6 +49,7 @@ Llenado del tanque de lavado con agua ```1 segundo```
 ```Centrifugado``` (250ms)
 ```Conteo del tiempo de lavado``` (2 segundos)
 Cuando el tiempo de lavado alcanza un cierto valor ```11 segundos```, el ciclo de lavado finaliza, se suena un timbre ```se enciende un LED``` y se notifica que el lavado ha terminado: <img width="457" alt="image" src="https://github.com/Vdanniella16/Lavadora.c/assets/161171728/d7e6486b-a555-4af6-a3c1-933b5b392c29">
+
 **Y de esta manera se muestra que el ciclo ha concluido, mostrando la letra F en el display de 7 segmentos utilizado.**
 
 Luego cuando todo el ciclo ha concluido, se ejecuta la función en el monitor serial indicando el mensaje que se puede abrir la tapa de la lavadora.
@@ -59,6 +60,7 @@ A continuación se comparte un pequeño video con la explicación sobre el códi
 
 Se incluye la parte teórica evaluada en el examen final.
 https://drive.google.com/file/d/1aGXfAV9W-YxE7bpt3fyB3X3y8inQ5C_G/view?usp=sharing 
+
 <img width="157" alt="image" src="https://github.com/Vdanniella16/Lavadora.c/assets/161171728/1d15aed7-b84d-4100-9bfd-b07f4db155ed">
 
 
