@@ -1,4 +1,4 @@
-<img width="457" alt="image" src="https://github.com/Vdanniella16/Lavadora.c/assets/161171728/23ae7593-d2f8-491c-b3d8-b4a64a274f34"># Lavadora.c
+# Lavadora.c
 Lavadora Microprocesadores y Microcontroladores, 
 ```lavadora.c``` es un programa que controla una lavadora. La lavadora tiene ciclos de lavado, enjuague y centrifugado, y se inicia presionando un botón en el panel frontal. El programa se ejecuta en un microcontrolador STM32L053.
 
